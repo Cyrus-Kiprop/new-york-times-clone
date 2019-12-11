@@ -9,11 +9,14 @@ nav {
   position: relative;
   margin: 0 auto;
   padding: 4px 15px 2px;
-  background-color:orange;
+  /* background-color:orange; */
 }
 
-.hamburger-button {
+.nav-container > * {
   position: absolute;
+}
+.nav-icon-button {
+  cursor: pointer;
   height: 33px;
   width: 34px;
   margin-right: 8px;
@@ -22,4 +25,76 @@ nav {
   box-shadow: none;
   border: none;
   background-color: #fff;
+  transition: 0.2s;
+}
+
+.nav-icon-button:hover {
+  background-color: #f9f9f9;
+}
+
+.search-button {
+  left: 40px;
+}
+
+.space-and-cosmos-link {
+  top: 10px;
+  left: 100px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000;
+}
+
+.space-and-cosmos-link:hover {
+  text-decoration: underline;
+}
+
+.nyt-logo-anchor {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nyt-logo {
+  height: 28px;
+}
+
+.blue-nav-buttons {
+  position: absolute;
+  height: 32px;
+  width: 197px;
+  padding: 0;
+  background-color: ivory;
+  right: 15px;
+}
+
+.nav-button {
+  cursor: pointer;
+  outline: none;
+  width: 125px;
+  border: 1px solid #326891;
+  margin-right: 7px;
+  padding-top: 5px;
+  color: #fff;
+  text-align: cnter;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: #567b95;
+}
+
+.subscribe-button {
+  position: absolute;
+  left: 0;
+}
+
+.login-button {
+  position: absolute;
+  right: 0;
+  width: 65px;
+  margin: 0;
 }
