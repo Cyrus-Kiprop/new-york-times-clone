@@ -1,0 +1,25 @@
+nav {
+  position: fixed;
+  height: 42px;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nav-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 4px 15px 2px;
+  background-color:orange;
+}
+
+.hamburger-button {
+  position: absolute;
+  height: 33px;
+  width: 34px;
+  margin-right: 8px;
+  padding: 8px 9px 9px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+}
