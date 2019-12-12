@@ -1,13 +1,24 @@
 @import "nav.css";
+@import "section-one.css";
+@import "science-section.css";
 
-
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+  font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 42px;
+  width: 70%;
+  margin: 42px auto 0 auto;
+  right: 0;
+  left: 0;
 }
