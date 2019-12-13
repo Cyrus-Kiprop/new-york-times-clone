@@ -1,5 +1,7 @@
 nav {
-  position: fixed;
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
   height: 42px;
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
