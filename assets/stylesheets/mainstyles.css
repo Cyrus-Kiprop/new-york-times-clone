@@ -325,3 +325,234 @@ h1 {
   border-width: 6px 0px 0px 6px;
   border-color: rgb(255, 255, 255) transparent;
 }
+
+section {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.paragraph-aside-container {
+  width: 1170px;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+
+.paragraph-aside-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paragraph-container {
+  width: 600px;
+  margin-left: 285px;
+  float: left;
+  /* background-color: purple; */
+}
+
+.aside-container {
+  float: left;
+  margin-left: 75px;
+  width: 210px;
+}
+
+p {
+  width: 100%;
+  margin-bottom: 0.9375rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.paragraph-header {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
+}
+
+.signup-container {
+  margin: 25px auto 0;
+  color: #333;
+  width: 180px;
+  height: 162px;
+  position: relative;
+  top: 50%;
+}
+.signup-container h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.signup-container p {
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  margin-bottom: 10px;
+}
+
+.signup-container button {
+  width: 100%;
+  height: 35px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background: rgb(76, 113, 139);
+}
+
+.signup-aside {
+  height: 585px;
+}
+
+.editor-aside {
+  height: 951px;
+}
+
+.editor-pick-container {
+  width: 100%;
+  /* background: teal; */
+  height: 200px;
+  position: relative;
+  top: 50%;
+}
+
+.editor-pick-container h2 {
+  font-weight: 700;
+  color: #000;
+  margin: 15px 0 12px 0;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 12px;
+}
+
+.editor-pick-container article {
+  margin-bottom: 15px;
+}
+
+.editor-pick-container article a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.editor-pick-container article a:hover h3 {
+  text-decoration: underline;
+}
+
+.editor-pick-container article a::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.editor-pick-container article a div {
+  height: 102px;
+  width: 75px;
+  float: left;
+}
+
+.editor-pick-container article a div img {
+  height: auto;
+  max-width: 100%;
+}
+
+.editor-pick-container article a h3 {
+  width: calc(100% - 85px);
+  margin-left: 10px;
+  font-weight: 500;
+  float: left;
+  font-size: 14px;
+  /* line-height: 17px; */
+  color: rgb(51, 51, 51);
+}
+
+.infographic-container {
+  width: 945px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.infographic-container header {
+  height: 34px;
+  /* background-color: black; */
+  margin-bottom: 10px;
+}
+
+.infographic-container header h2 {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0 2px;
+  font-style: normal;
+}
+
+.infographic-container header h3 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 200;
+  font-style: normal;
+  color: #666;
+}
+
+.video-container {
+  width: 100%;
+  height: auto;
+}
+.video-container iframe {
+  width: 100%;
+
+  height: 319px;
+}
+
+.video-container figcaption {
+  color: #666;
+  display: block;
+  margin: 10px 20px 0;
+  text-align: left;
+  /* background-color: red; */
+}
+
+.video-container figcaption span:first-child {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+}
+
+.video-container figcaption span:nth-child(2) {
+  letter-spacing: 0.01em;
+
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.telescope-image-container {
+  display: block;
+  color: #333;
+  width: 100%;
+}
+
+.telescope-image-container img{
+  cursor: pointer;
+width: 100%;
+vertical-align: top;
+height: auto;
+
+}
