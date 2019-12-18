@@ -214,7 +214,7 @@ h1 {
   float: left;
   height: 100%;
   width: 50%;
-  padding-right: auto;
+  padding-right: 16px;
   padding-left: 16px;
 }
 
@@ -225,7 +225,7 @@ h1 {
   border: 1px solid #eee;
   border-radius: 50%;
   margin-top: 6.5px;
-  margin-right: 16px;
+  margin-right: 17px;
   background-color: #eee;
 }
 
@@ -253,18 +253,75 @@ h1 {
   padding-left: 2px;
 }
 
-​ #bookmark {
+#bookmark {
+  display: inline-block;
   height: 29px;
   width: auto;
   vertical-align: middle;
   cursor: pointer;
+  background: transparent;
+  margin-right: 16px;
   padding-top: 2px;
-  background: white;
-  box-shadow: none;
-  outline: none;
   border: none;
+  outline: none;
 }
 
-​ .bookmark svg:hover {
+​ #bookmark:hover {
   opacity: 0.5;
+}
+
+.comment-button {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  cursor: pointer;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  padding-bottom: 4px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.comment-button i {
+  display: block;
+  position: relative;
+  min-height: 16px;
+  width: auto;
+  min-width: 26px;
+  padding: 4px;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 4px;
+  font: inherit;
+  background: transparent;
+}
+
+.comment-button i > span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 15px;
+  bottom: -7px;
+  border-style: solid;
+  border-width: 6px 0px 0px 8px;
+  border-color: rgb(102, 102, 102) transparent;
+}
+
+.comment-button i > span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 16px;
+  bottom: -6px;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+  border-color: rgb(255, 255, 255) transparent;
 }
