@@ -490,8 +490,6 @@ p {
 }
 
 .infographic-container header {
-  height: 34px;
-  /* background-color: black; */
   margin-bottom: 10px;
 }
 
@@ -511,9 +509,101 @@ p {
   color: #666;
 }
 
+.image-caption-container {
+  position: relative;
+  color: #333;
+}
+
+.image-caption-container img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.image-caption-container div {
+  position: absolute;
+  width: 228px;
+}
+
+.image-caption-container p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  line-height: 17px;
+}
+
+.image-caption-container p > span {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.universe {
+  top: 24.8264%;
+  left: 0.0436%;
+}
+
+.not-enough-time {
+  top: 24.8264%;
+  left: 25.5619%;
+}
+
+.distant-coffee {
+  top: 24.8264%;
+  left: 51.08%;
+}
+
+.coffee-everywhere {
+  top: 24.8264%;
+  left: 76.5982%;
+}
+
+.still-not-enough-time {
+  top: 73.4375%;
+  left: 0.0436%;
+}
+
+.inflation {
+  top: 73.4375%;
+  left: 25.5619%;
+}
+
+.fluctuation {
+  top: 73.4375%;
+  left: 51.08%;
+}
+
+.expansion {
+  top: 73.4375%;
+  left: 76.5982%;
+}
+
+.infographic-footer {
+  height: 50px;
+  max-width: 945px;
+  margin-top: 24px;
+}
+
+.infographic-credit:before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 60px;
+  margin-bottom: 13px;
+  background-color: #000;  
+}
+
+.infographic-credit p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  margin-bottom: 1em;
+}
+
 .video-container {
   width: 100%;
   height: auto;
+  margin-bottom: 50px;
 }
 .video-container iframe {
   width: 100%;
@@ -524,7 +614,7 @@ p {
 .video-container figcaption {
   color: #666;
   display: block;
-  margin: 10px 20px 0;
+  margin: 10px 20px 0 0;
   text-align: left;
   /* background-color: red; */
 }
@@ -548,7 +638,7 @@ p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: rgb(102, 102, 102);
   text-align: left;
-  margin: 10px 20px 0px;
+  margin: 10px 20px 50px 0px;
 }
 
 .telescope-image-container img {
@@ -573,6 +663,10 @@ p {
   letter-spacing: 0.01em;
 }
 
+.bottom-of-article {
+  margin-top: 0;
+}
+
 .bottom-of-article .bottom-article-header {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -581,6 +675,15 @@ p {
   color: rgb(102, 102, 102);
   margin: 0px auto 1em;
 }
+
+.bottom-article-header a {
+  color: inherit;
+}
+
+.bottom-article-header a:hover {
+  text-decoration: none;
+}
+
 .bottom-of-article .date-social {
   max-width: 600px;
   margin: 1.5rem auto 2rem;
