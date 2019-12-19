@@ -590,7 +590,7 @@ p {
   height: 1px;
   width: 60px;
   margin-bottom: 13px;
-  background-color: #000;  
+  background-color: #000;
 }
 
 .infographic-credit p {
@@ -723,4 +723,161 @@ p {
   margin-right: 0;
   margin-left: 90px;
   float: left;
+}
+.featured-article-container {
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+  border-top: none;
+  margin-top: 45px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-article-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-side-container {
+  float: left;
+  width: 852px;
+  padding: 0px;
+}
+
+.right-side-container {
+  margin-left: 30px;
+  width: 315px;
+  float: left;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding-bottom: 15px;
+}
+
+.space-cosmos-header {
+  border-top: 1px solid rgb(0, 0, 0);
+
+  clear: both;
+}
+
+.space-cosmos-header h2 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  max-width: 851.25px;
+  padding: 17px 20px 0px;
+}
+.space-cosmos-header h2 a {
+  text-decoration: none;
+  color: black;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.space-cosmos-images {
+  max-width: 852px;
+  padding-top: 15px;
+}
+
+.space-cosmos-images::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cosmos-image-container {
+  width: 272.63px;
+  float: left;
+  height: 291.75px;
+  margin-right: 17px;
+  padding-bottom: 20px;
+}
+
+.cosmos-image-container:nth-child(5) {
+  margin-right: 0px;
+}
+
+.margin-right-reset {
+  margin-right: 0px;
+}
+
+.cosmos-image-container div a img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+.cosmos-image-container div a figcaption {
+  margin-top: 3px;
+  min-height: 12px;
+}
+
+.cosmos-image-container div a figcaption div {
+  padding-bottom: 4px;
+  font-size: 0.625rem;
+  text-transform: none;
+  margin: 3px 0px 0px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  line-height: 1.23em;
+}
+
+.cosmos-image-info {
+  font-size: 1rem;
+  padding-right: 10px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  line-height: 1.375rem;
+  text-align: left;
+}
+
+.anchor {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+}
+
+.cosmos-image-info a h3 {
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: rgb(18, 18, 18);
+}
+
+.cosmos-image-info a h3:hover {
+  color: rgb(146, 146, 146);
+}
+
+.cosmos-image-info time {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+}
+
+.popular-content-container {
+  border-top: 1px solid rgb(226, 226, 226);
+  list-style: none;
+}
+
+.add-margin {
+  margin-top: 15px;
+}
+
+.popular-content-container h3 {
+  /* border-bottom: 1px solid rgb(226, 226, 226); */
+  padding: 15px 0px;
+}
+
+.popular-content-container h3 a {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popular-content-container h3 a:hover {
+  color: rgb(146, 146, 146);
 }
