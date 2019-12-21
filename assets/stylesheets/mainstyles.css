@@ -655,6 +655,10 @@ text-decoration: none;
   height: auto;
 }
 
+.telescope-image-container figcaption {
+  margin-top: 20px;
+}
+
 .telescope-image-container figcaption span:first-child {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -804,6 +808,7 @@ text-decoration: none;
   float: left;
   height: 291.75px;
   margin-right: 17px;
+  margin-bottom: 10px;
   padding-bottom: 20px;
 }
 
@@ -892,4 +897,267 @@ text-decoration: none;
 
 .popular-content-container h3 a:hover {
   color: rgb(146, 146, 146);
+}
+
+.site-index {
+  position: static;
+  box-sizing: content-box;
+  height: auto;
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 3% 9px;
+}
+
+.index-top-border {
+  content: "";
+  height: 5px; 
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226); 
+  margin-bottom: 0;
+}
+
+.index-container header {
+  height: 44px;
+}
+
+.index-container header::after {
+  content: "";
+  display: table;
+  clear: both;
+  border: none;
+}
+
+.nyt-index-logo {
+  display: inline-block;
+  height: 44px;
+  width: 284px;
+  margin-top: 10px;
+}
+
+.go-to-home-page {
+  float: right;
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.go-to-home-page a {
+  display: inline-block;
+  margin-top: 33px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  color: rgb(86, 123, 149);  
+}
+
+.links-container {
+  color: #333;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.links-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.links-container h3 {
+  width: 150px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  height: 25px;
+}
+
+.links-container ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-links {
+  float: left;
+  width: 197.333px;
+  margin-top: 0;
+}
+
+
+
+.main-links ul > li a {
+  display: inline-block;
+  width: 150px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.main-links ul > li a:hover {
+  text-decoration: underline;
+}
+
+.subscription-links {
+  float: left;
+  width: 213.333px;
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+.subscription-links li {
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.subscription-link-anchor {
+  display: inline-block;
+  height: 25px;
+  width: 150px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.subscription-links li > a > svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.small-links {
+  display: inline-block;
+  height: 23px;
+  width: 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+.small-links:hover {
+  text-decoration: underline;
+}
+
+.other-links {
+  margin-top: 2px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.other-links a {
+  display: inline-block;
+  height: 23px;
+  width: 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+.page-footer {
+  box-sizing: content-box;
+  height: 65px;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0 3% 45px;
+  font-size: 11px;
+  text-align: auto;
+}
+
+.footer-links-container {
+  height: 30px;
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 9px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 35px;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 10px;
+  color: rgb(102, 102, 102);
+  line-height: 8px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.bottom-fixed-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 55px;
+  width: 100%;
+  border-top: 1px solid rgb(51, 51, 51);
+  background-color: #fff;
+}
+
+.create-free-account {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 19px;
+}
+
+.free-account-text-container {
+  position: relative;
+  height: 17px;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.expand-container {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 160px;
+}
+
+.expand {
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24x;
+  cursor: pointer;
+}
+
+.expand-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 55px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.expand-button svg {
+  position: absolute;
+  top: -4px;
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  vertical-align: middle;
+  transform: rotate(-90deg);
 }
