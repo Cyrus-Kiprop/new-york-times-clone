@@ -23,12 +23,14 @@ nav {
   position: relative;
   margin: 0 auto;
   padding: 4px 15px 2px;
+
   /* background-color:orange; */
 }
 
 .nav-container > * {
   position: absolute;
 }
+
 .nav-icon-button {
   cursor: pointer;
   height: 33px;
@@ -129,7 +131,6 @@ h1 {
   margin-right: auto;
   margin-bottom: 1rem;
   color: #121212;
-  font-family: Arial;
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 700;
@@ -174,10 +175,79 @@ h1 {
   line-height: 1.25rem;
 }
 
+p a {
+  color: #326891;
+}
+
 .author-name a {
   text-decoration-style: line;
   text-decoration-color: #ccc;
   color: inherit;
+}
+
+.bottom-article-header a {
+  color: inherit;
+}
+
+.go-to-home-page a {
+  display: inline-block;
+  margin-top: 33px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  color: rgb(86, 123, 149);
+}
+
+.other-links a {
+  display: inline-block;
+  height: 23px;
+  width: 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.editor-pick-container article a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.space-cosmos-header h2 a {
+  text-decoration: none;
+  color: black;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.popular-content-container h3 a {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-links ul > li a {
+  display: inline-block;
+  width: 150px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
 }
 
 .author-name a:hover {
@@ -237,22 +307,23 @@ h1 {
   vertical-align: middle;
 }
 
-#facebook-icon {
+.facebook-icon {
   padding-left: 5px;
 }
 
-#twitter-icon {
+.twitter-icon {
   padding-left: 3px;
 }
 
-#email-icon {
+.email-icon {
   padding-left: 1.5px;
 }
-​ #share-icon {
+
+.share-icon {
   padding-left: 2px;
 }
 
-#bookmark {
+.book-mark-btn {
   display: inline-block;
   height: 29px;
   width: auto;
@@ -265,7 +336,7 @@ h1 {
   outline: none;
 }
 
-​ #bookmark:hover {
+.book-mark-btn:hover {
   opacity: 0.5;
 }
 
@@ -308,7 +379,7 @@ h1 {
   left: 15px;
   bottom: -7px;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
   border-color: rgb(102, 102, 102) transparent;
 }
 
@@ -321,7 +392,7 @@ h1 {
   left: 16px;
   bottom: -6px;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
   border-color: rgb(255, 255, 255) transparent;
 }
 
@@ -333,6 +404,7 @@ section {
 .paragraph-aside-container {
   width: 1170px;
   margin: 0 auto;
+
   /* background-color: green; */
 }
 
@@ -346,6 +418,7 @@ section {
   width: 600px;
   margin-left: 285px;
   float: left;
+
   /* background-color: purple; */
 }
 
@@ -360,13 +433,6 @@ p {
   margin-bottom: 0.9375rem;
   font-size: 1.25rem;
   line-height: 1.875rem;
-}
-
-p a {
-  color: #326891;
-}
-p a:hover {
-text-decoration: none;
 }
 
 .paragraph-header {
@@ -384,6 +450,7 @@ text-decoration: none;
   position: relative;
   top: 50%;
 }
+
 .signup-container h2 {
   font-size: 1.125rem;
   line-height: 1.5rem;
@@ -394,7 +461,7 @@ text-decoration: none;
 
 .signup-container p {
   font-weight: 500;
-  margin-left: 0px;
+  margin-left: 0;
   font-size: 0.8125rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
@@ -430,6 +497,7 @@ text-decoration: none;
 
 .editor-pick-container {
   width: 100%;
+
   /* background: teal; */
   height: 200px;
   position: relative;
@@ -451,11 +519,44 @@ text-decoration: none;
   margin-bottom: 15px;
 }
 
-.editor-pick-container article a {
-  color: #000;
-  text-decoration: none;
-  display: block;
-  width: 100%;
+.popular-content-container h3 {
+  padding: 15px 0;
+}
+
+.links-container h3 {
+  width: 150px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  height: 25px;
+}
+
+.infographic-container header h3 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 200;
+  font-style: normal;
+  color: #666;
+}
+
+.cosmos-image-info a h3 {
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: rgb(18, 18, 18);
+}
+
+.editor-pick-container article a h3 {
+  width: calc(100% - 85px);
+  margin-left: 10px;
+  font-weight: 500;
+  float: left;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+
+.cosmos-image-info a h3:hover {
+  color: rgb(146, 146, 146);
 }
 
 .editor-pick-container article a:hover h3 {
@@ -468,25 +569,39 @@ text-decoration: none;
   clear: both;
 }
 
+.image-caption-container div {
+  position: absolute;
+  width: 228px;
+}
+
 .editor-pick-container article a div {
   height: 102px;
   width: 75px;
   float: left;
 }
 
-.editor-pick-container article a div img {
+.image-caption-container img {
+  display: block;
   height: auto;
   max-width: 100%;
 }
 
-.editor-pick-container article a h3 {
-  width: calc(100% - 85px);
-  margin-left: 10px;
-  font-weight: 500;
-  float: left;
-  font-size: 14px;
-  /* line-height: 17px; */
-  color: rgb(51, 51, 51);
+.telescope-image-container img {
+  cursor: pointer;
+  width: 100%;
+  vertical-align: top;
+  height: auto;
+}
+
+.cosmos-image-container div a img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.editor-pick-container article a div img {
+  height: auto;
+  max-width: 100%;
 }
 
 .infographic-container {
@@ -499,6 +614,14 @@ text-decoration: none;
   margin-bottom: 10px;
 }
 
+.space-cosmos-header h2 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  max-width: 851.25px;
+  padding: 17px 20px 0;
+}
+
 .infographic-container header h2 {
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -507,28 +630,9 @@ text-decoration: none;
   font-style: normal;
 }
 
-.infographic-container header h3 {
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  font-weight: 200;
-  font-style: normal;
-  color: #666;
-}
-
 .image-caption-container {
   position: relative;
   color: #333;
-}
-
-.image-caption-container img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.image-caption-container div {
-  position: absolute;
-  width: 228px;
 }
 
 .image-caption-container p {
@@ -590,7 +694,7 @@ text-decoration: none;
   margin-top: 24px;
 }
 
-.infographic-credit:before {
+.infographic-credit::before {
   content: "";
   display: inline-block;
   height: 1px;
@@ -611,9 +715,9 @@ text-decoration: none;
   height: auto;
   margin-bottom: 50px;
 }
+
 .video-container iframe {
   width: 100%;
-
   height: 319px;
 }
 
@@ -622,6 +726,7 @@ text-decoration: none;
   display: block;
   margin: 10px 20px 0 0;
   text-align: left;
+
   /* background-color: red; */
 }
 
@@ -634,7 +739,6 @@ text-decoration: none;
 
 .video-container figcaption span:nth-child(2) {
   letter-spacing: 0.01em;
-
   font-size: 0.75rem;
   text-align: left;
 }
@@ -644,14 +748,7 @@ text-decoration: none;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: rgb(102, 102, 102);
   text-align: left;
-  margin: 10px 20px 50px 0px;
-}
-
-.telescope-image-container img {
-  cursor: pointer;
-  width: 100%;
-  vertical-align: top;
-  height: auto;
+  margin: 10px 20px 50px 0;
 }
 
 .telescope-image-container figcaption {
@@ -683,11 +780,7 @@ text-decoration: none;
   width: calc(100% - 40px);
   max-width: 600px;
   color: rgb(102, 102, 102);
-  margin: 0px auto 1em;
-}
-
-.bottom-article-header a {
-  color: inherit;
+  margin: 0 auto 1em;
 }
 
 .bottom-article-header a:hover {
@@ -703,7 +796,7 @@ text-decoration: none;
   width: 330px;
   color: rgb(153, 153, 153);
   margin-right: 16px;
-  padding: 0px 1rem 0px 0px;
+  padding: 0 1rem 0 0;
   float: left;
 }
 
@@ -725,7 +818,7 @@ text-decoration: none;
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px 0px;
+  padding: 5px 0;
   transition: background-color 0.6s ease 0s;
 }
 
@@ -739,6 +832,7 @@ text-decoration: none;
   margin-left: 90px;
   float: left;
 }
+
 .featured-article-container {
   max-width: 1200px;
   background-color: rgb(255, 255, 255);
@@ -758,7 +852,7 @@ text-decoration: none;
 .left-side-container {
   float: left;
   width: 852px;
-  padding: 0px;
+  padding: 0;
 }
 
 .right-side-container {
@@ -773,22 +867,7 @@ text-decoration: none;
 
 .space-cosmos-header {
   border-top: 1px solid rgb(0, 0, 0);
-
   clear: both;
-}
-
-.space-cosmos-header h2 {
-  font-size: 1rem;
-  line-height: 1.375rem;
-  font-weight: 700;
-  max-width: 851.25px;
-  padding: 17px 20px 0px;
-}
-.space-cosmos-header h2 a {
-  text-decoration: none;
-  color: black;
-  font: inherit;
-  vertical-align: baseline;
 }
 
 .space-cosmos-images {
@@ -812,18 +891,13 @@ text-decoration: none;
 }
 
 .cosmos-image-container:nth-child(5) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .margin-right-reset {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
-.cosmos-image-container div a img {
-  cursor: pointer;
-  width: 100%;
-  height: auto;
-}
 .cosmos-image-container div a figcaption {
   margin-top: 3px;
   min-height: 12px;
@@ -833,7 +907,7 @@ text-decoration: none;
   padding-bottom: 4px;
   font-size: 0.625rem;
   text-transform: none;
-  margin: 3px 0px 0px;
+  margin: 3px 0 0;
   text-align: right;
   color: rgb(153, 153, 153);
   line-height: 1.23em;
@@ -855,16 +929,6 @@ text-decoration: none;
   font: inherit;
 }
 
-.cosmos-image-info a h3 {
-  font-size: 1.125rem;
-  line-height: 22px;
-  color: rgb(18, 18, 18);
-}
-
-.cosmos-image-info a h3:hover {
-  color: rgb(146, 146, 146);
-}
-
 .cosmos-image-info time {
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
@@ -880,20 +944,6 @@ text-decoration: none;
   margin-top: 15px;
 }
 
-.popular-content-container h3 {
-  /* border-bottom: 1px solid rgb(226, 226, 226); */
-  padding: 15px 0px;
-}
-
-.popular-content-container h3 a {
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  color: rgb(18, 18, 18);
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .popular-content-container h3 a:hover {
   color: rgb(146, 146, 146);
 }
@@ -903,15 +953,15 @@ text-decoration: none;
   box-sizing: content-box;
   height: auto;
   width: 1200px;
-  margin: 0px auto;
-  padding: 0px 3% 9px;
+  margin: 0 auto;
+  padding: 0 3% 9px;
 }
 
 .index-top-border {
   content: "";
-  height: 5px; 
+  height: 5px;
   border-top: 2px solid rgb(226, 226, 226);
-  border-bottom: 1px solid rgb(226, 226, 226); 
+  border-bottom: 1px solid rgb(226, 226, 226);
   margin-bottom: 0;
 }
 
@@ -940,16 +990,6 @@ text-decoration: none;
   width: auto;
 }
 
-.go-to-home-page a {
-  display: inline-block;
-  margin-top: 33px;
-  text-decoration: none;
-  font-size: 11px;
-  line-height: 11px;
-  font-weight: 400;
-  color: rgb(86, 123, 149);  
-}
-
 .links-container {
   color: #333;
   margin-top: 30px;
@@ -962,15 +1002,6 @@ text-decoration: none;
   display: table;
 }
 
-.links-container h3 {
-  width: 150px;
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  line-height: 15px;
-  font-weight: 700;
-  height: 25px;
-}
-
 .links-container ul {
   list-style: outside none none;
   margin: 0;
@@ -981,20 +1012,6 @@ text-decoration: none;
   float: left;
   width: 197.333px;
   margin-top: 0;
-}
-
-
-
-.main-links ul > li a {
-  display: inline-block;
-  width: 150px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #333;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
 }
 
 .main-links ul > li a:hover {
@@ -1022,6 +1039,16 @@ text-decoration: none;
   font-size: 16px;
   line-height: 15px;
   font-weight: 700;
+}
+
+.expand-button svg {
+  position: absolute;
+  top: -4px;
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  vertical-align: middle;
+  transform: rotate(-90deg);
 }
 
 .subscription-links li > a > svg {
@@ -1054,23 +1081,11 @@ text-decoration: none;
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-.other-links a {
-  display: inline-block;
-  height: 23px;
-  width: 15px;
-  text-decoration: none;
-  color: #000;
-  font-size: 11px;
-  font-weight: 500;
-  line-height: 21px;
-  margin-bottom: 0;
-}
-
 .page-footer {
   box-sizing: content-box;
   height: 65px;
   max-width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 0 3% 45px;
   font-size: 11px;
   text-align: auto;
@@ -1135,7 +1150,7 @@ text-decoration: none;
   position: relative;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.24x;
+  letter-spacing: 0.24px;
   cursor: pointer;
 }
 
@@ -1149,14 +1164,4 @@ text-decoration: none;
   width: 55px;
   cursor: pointer;
   background: transparent;
-}
-
-.expand-button svg {
-  position: absolute;
-  top: -4px;
-  height: 15px;
-  width: 15px;
-  padding: 0;
-  vertical-align: middle;
-  transform: rotate(-90deg);
 }
